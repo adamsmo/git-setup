@@ -31,3 +31,8 @@ git remote prune origin
 ```
 git branch --merged >/tmp/merged-branches && vi /tmp/merged-branches && xargs git branch -d </tmp/merged-branches
 ```
+
+## delete all local merged branches from list
+```
+git branch >/tmp/merged-branches && vi /tmp/merged-branches && xargs git branch -D </tmp/merged-branches
+```
