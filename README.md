@@ -22,6 +22,11 @@ git config commit.gpgsign true
 
 # git commands
 
+## checkout file form different branch to current branch
+```
+git checkout other_branch_name -- file_path
+```
+
 ## clean deleted branches
 ```
 git remote prune origin
