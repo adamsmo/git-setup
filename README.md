@@ -29,7 +29,7 @@ git checkout other_branch_name -- file_path
 
 ## squash n top commits
 ```
-git rebase --interactive HEAD~2
+git rebase --interactive HEAD~n
 ```
 
 ## clean deleted branches
