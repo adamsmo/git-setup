@@ -27,6 +27,11 @@ git config commit.gpgsign true
 git checkout other_branch_name -- file_path
 ```
 
+## squash n top commits
+```
+git rebase --interactive HEAD~2
+```
+
 ## clean deleted branches
 ```
 git remote prune origin
