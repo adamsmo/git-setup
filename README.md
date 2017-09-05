@@ -46,3 +46,8 @@ git branch --merged >/tmp/merged-branches && vi /tmp/merged-branches && xargs gi
 ```
 git branch >/tmp/merged-branches && vi /tmp/merged-branches && xargs git branch -D </tmp/merged-branches
 ```
+
+## pull submodules in git first time
+```
+ git submodule update --init --recursive
+```
