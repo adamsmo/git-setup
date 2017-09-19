@@ -51,3 +51,9 @@ git branch >/tmp/merged-branches && vi /tmp/merged-branches && xargs git branch 
 ```
  git submodule update --init --recursive
 ```
+
+## crate and push tag on current branch
+```
+git tag tagname
+git push origin --tags
+```
