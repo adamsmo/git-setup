@@ -57,3 +57,8 @@ git branch >/tmp/merged-branches && vi /tmp/merged-branches && xargs git branch 
 git tag tagname
 git push origin --tags
 ```
+
+## delete commit from local branch
+```
+git reset --hard HEAD~1
+```
