@@ -58,6 +58,11 @@ git tag tagname
 git push origin --tags
 ```
 
+## add +x to commited file
+```
+git update-index --chmod=+x file.name
+```
+
 ## delete commit from local branch
 ```
 git reset --hard HEAD~1
